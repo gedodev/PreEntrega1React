@@ -1,0 +1,14 @@
+.cart{
+    background-color: #333;
+    width: fit-content;
+    border-radius: 100%;
+  }
+  
+  .cart svg{
+    padding: 0.5rem;
+    position: absolute;
+  }
+
+  .position{
+    position: relative;
+  }

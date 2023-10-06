@@ -1,0 +1,30 @@
+.navbar{
+    height: 4rem;
+    /* border-bottom: 1px solid #EEE; */
+}
+
+.nbUl, .nbTitle,
+.nbTitle svg {
+    height: 100%;
+}
+
+.nbTitle{
+    display: flex;
+    align-items: center;
+}
+
+.nbTitle span{
+    color: #EEE;
+    font-size: 2rem;
+}
+
+.nbUl{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.navbar li{
+    list-style-type: none;
+}
