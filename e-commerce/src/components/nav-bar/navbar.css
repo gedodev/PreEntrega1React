@@ -4,7 +4,7 @@
 }
 
 .nbUl, .nbTitle,
-.nbTitle svg {
+.nbTitle img {
     height: 100%;
 }
 
@@ -27,4 +27,14 @@
 
 .navbar li{
     list-style-type: none;
+}
+
+.nbCart{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nbCart *:not(img,span){
+    height: 100%;
 }
